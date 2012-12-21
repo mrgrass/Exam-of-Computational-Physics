@@ -1,0 +1,9 @@
+int GLOBAL_DIVISIONS = 8;					//N° di suddivisioni uguali della scatola
+int GLOBAL_N_PARTICLES = DIVISIONS*DIVISIONS*DIVISIONS;		//512 <-> 8^3
+int GLOBAL_ITER_TOT = 1000;					//Iterazioni totali da fare
+
+double GLOBAL_L_BOX = 445;
+double GLOBAL_DT = 1;						//Step simulazione in unità ridotte
+double GLOBAL_PARTICLE_MASS = 1.6998e-3;			//Massa ridotta delle particelle
+double GLOBAL_THETA = 5.666e-4;					//Kb*T ridotto
+
